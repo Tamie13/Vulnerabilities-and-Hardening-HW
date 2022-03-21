@@ -1,4 +1,4 @@
-# Vulnerabilities-and-Hardening-Cybersecurity Unit 15
+## Vulnerabilities-and-Hardening-Cybersecurity Unit 15
 
 
 # Topics Covered in this repository:
@@ -30,6 +30,14 @@ Use the command line to run Vagrant with the following command:
 - cd ./Documents/web-vulns && docker-compose up
 
 While the output might look like the task is still running, this script has launched several vulnerable web applications that we will use throughout this assignment.  Leave this page open and running then open a another terminal window.
+
+http://192.168.13.25
+Login credentials:
+
+- User Name: admin
+- Password:  password
+
+
 
 
 
