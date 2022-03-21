@@ -1,4 +1,19 @@
 # Vulnerabilities-and-Hardening-HW
+
+Topics Covered in this repository:
+
+- Web application vulnerability assessments
+-- Injection
+-- Brute force attacks
+-- Broken authentication
+-- Burp Suite
+-- Web proxies
+-- Directory traversal
+-- Dot dot slash attacks
+-- Beef
+-- Cross-site scripting
+-- Malicious payloads
+
 Content will include steps on how to test the vulnerabilities of a web application using a virtual machine.  Steps will include:  
 
 -- Detailing how to setup and access the applications
