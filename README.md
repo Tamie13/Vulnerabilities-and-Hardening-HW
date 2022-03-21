@@ -1,7 +1,7 @@
-# Vulnerabilities-and-Hardening
+# Web Vulnerabilities And Hardening
 (Cybersecurity Bootcamp Unit 15 Assignment)
 
-### Topics Covered in this repository:
+### Topics Covered Will Include:
 - Web application vulnerability assessments
 - Injection
 - Brute force attacks
@@ -35,14 +35,15 @@ Next open your browser and navigate to:
 
 http://192.168.13.25
 
-Login credentials:
+- Login credentials:
 
-- User Name: admin
-- Password:  password
+    * User Name: admin
+    * Password:  password
 
-**Next:** Select **Command Injection** option
+**Next Select:** 
 
-Web page should look like the image below.
+*Command Injection*
+option (See image below)
 
 ![TODO: Update the path with the name of your diagram](https://github.com/Tamie13/Vulnerabilities-and-Hardening-HW/blob/main/DVWA/command%20injection%20shot.png)
 
