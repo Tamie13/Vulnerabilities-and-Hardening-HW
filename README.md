@@ -1,5 +1,5 @@
-## Vulnerabilities-and-Hardening-Cybersecurity Unit 15
-
+## Vulnerabilities-and-Hardening
+(Cybersecurity Bootcamp Unit 15 Assignment)
 
 # Topics Covered in this repository:
 - Web application vulnerability assessments
@@ -36,6 +36,9 @@ Login credentials:
 
 - User Name: admin
 - Password:  password
+(Note if your DVWA does not open to the menu screen scroll to the bottom and click create a database and login again.)
+
+Select #Command Injection option.
 
 
 
