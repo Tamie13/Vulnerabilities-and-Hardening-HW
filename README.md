@@ -1,7 +1,7 @@
 # Vulnerabilities-and-Hardening
 (Cybersecurity Bootcamp Unit 15 Assignment)
 
-## Topics Covered in this repository:
+### Topics Covered in this repository:
 - Web application vulnerability assessments
 - Injection
 - Brute force attacks
