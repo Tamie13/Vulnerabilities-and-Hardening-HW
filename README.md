@@ -88,4 +88,4 @@ Now that you have determined that Replicants new application is vulnerable to co
 
 ![TODO:  Update the path with the name of your diagram](https://github.com/Tamie13/Vulnerabilities-and-Hardening-HW/blob/main/DVWA/Result%20for%20:etc:passwd.png)
    
-You know from running the `pwd` command that we are five directories into our current location.  So, you will need to go back the same amount of directories to get to where we can change into the `/etc/passwd directory`.  The `cat` command is used so that the what is in the last directory `passwd` can be seen in the output. The command above shows how to accomplish that task and reveals the `/etc/passwd` directory as the output.
+You know from running the `pwd` command that we are five directories into our current location.  So, you will need to go back the same amount of directories to get to where we can change into the `/etc/passwd directory`.  The `cat` command is used so that the what is in the last directory `/etc/passwd` can be seen in the output. The command above shows how to accomplish that task and reveals the `/etc/passwd` directories output as seen above.
