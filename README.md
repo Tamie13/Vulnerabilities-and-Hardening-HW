@@ -53,6 +53,7 @@ option (See image below)
       
       
 **Command One**
+
 Test the webpage start by entering the IP address 
 `8.8.8.8`
 and press submit to see the results display on the web application.
@@ -65,9 +66,22 @@ and press submit to see the results display on the web application.
    
    
 **Command Two**
+
 Test Replicant webserver to see if it can be manipulated by inputing a different payload in the field by
 `Typing: 8.8.8.8 && pwd`
    
-![TODO: Update the path with the name of your diagram](https://github.com/Tamie13/Vulnerabilities-and-Hardening-HW/blob/main/DVWA/PWD%20Results.png)
+![TODO: Update the path with the name of your diagram](https://github.com/Tamie13/Vulnerabilities-and-Hardening-HW/blob/main/DVWA/PWD%20Results.png) 
    
+- The ping results above are the result of the second command used `pwd`.  The `injection` of `pwd` into the command line above is how you implement a:
+  - Command Injection Attack
 
+It should be noted that a Command Injection Attack is dependent on the web application taking user input to run a command against an operating system.
+
+Now that you have determined that Replicants new application is vulnerable to command injection, you are tasked with using the dot-dot-slash method to design two payloads that will display the contents of the following files:
+
+
+/etc/passwd
+
+/etc/hosts
+   
+**Hint:** Test out commands directly on the command line in terminal to help design your payloads.
