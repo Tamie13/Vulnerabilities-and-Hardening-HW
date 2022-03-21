@@ -80,8 +80,12 @@ It should be noted that a Command Injection Attack is dependent on the web appli
 Now that you have determined that Replicants new application is vulnerable to command injection, you are tasked with using the dot-dot-slash method to design two payloads that will display the contents of the following files:
 
 
-/etc/passwd
+/etc/passwd (See diagrams below for output)
 
-/etc/hosts
+/etc/hosts (See diagrams below for output)
    
 **Hint:** Test out commands directly on the command line in terminal to help design your payloads.
+
+![TODO:  Update the path with the name of your diagram](https://github.com/Tamie13/Vulnerabilities-and-Hardening-HW/blob/main/DVWA/Result%20for%20:etc:passwd.png)
+   
+You know from running the `pwd` command that we are five directories into our current location.  So, you will need to go back the same amount of directories to get to where we can change into the `/etc/passwd directory`.  The `cat` command is used so that the what is in the last directory `passwd` can be seen in the output. The command above shows how to accomplish that task and reveals the `/etc/passwd` directory as the output.
