@@ -31,7 +31,10 @@ Use the command line to run Vagrant with the following command:
 
 While the output might look like the task is still running, this script has launched several vulnerable web applications that we will use throughout this assignment.  Leave this page open and running then open a another terminal window.
 
+Next open your browser and navigate to:
+
 http://192.168.13.25
+
 Login credentials:
 
 - User Name: admin
