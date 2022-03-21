@@ -63,7 +63,7 @@ and press submit to see the results display on the web application.
 
 ![TODO: Update the path with the name of your diagram](https://github.com/Tamie13/Vulnerabilities-and-Hardening-HW/blob/main/DVWA/Results%20of%20Ping%20of%208.8.8.8.png)
 
-  - Behind the scenes, when you select Submit, the IP you type in the field is injected into the command that is run against the Replicants webserver. The specific     command that ran on the webserver is `ping IP address` and IP addresss: 8.8.8.8 is the field value that is injected into that command.   
+  - Behind the scenes, when you select Submit, the IP you type in the field is injected into the command that is run against the Replicants webserver. The specific     command that ran on the webserver is `ping IP address` and `IP addresss: 8.8.8.8` is the `field value` that is injected into that command.   
 
 **Payload Two**
 
