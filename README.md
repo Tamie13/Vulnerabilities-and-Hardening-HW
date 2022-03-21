@@ -39,7 +39,7 @@ Login credentials:
 
 (Note if your DVWA does not open to the menu screen scroll to the bottom and click create a database and login again.)
 
-Select ## Command Injection option.
+Select 'Command Injection option'.
 
 
 
