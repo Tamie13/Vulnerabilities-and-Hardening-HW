@@ -1,7 +1,7 @@
-## Vulnerabilities-and-Hardening
+# Vulnerabilities-and-Hardening
 (Cybersecurity Bootcamp Unit 15 Assignment)
 
-# Topics Covered in this repository:
+## Topics Covered in this repository:
 - Web application vulnerability assessments
 - Injection
 - Brute force attacks
@@ -14,14 +14,14 @@
 - Cross-site scripting
 - Malicious payloads
 
-# Content will include steps on how to test the vulnerabilities of a web application using a virtual machine.  
+## Content will include steps on how to test the vulnerabilities of a web application using a virtual machine.  
 Steps will include:  
 
 - Detailing how to setup and access the applications
 - A walkthrough of how the application is intended to work
 - Task that will test the application for vulnerabilities
 
-# To launch the environment with several vulnerable web applications, complete the following:
+## To launch the environment with several vulnerable web applications, complete the following:
 
 Use the command line to run Vagrant with the following command: 
 - vagrant up
