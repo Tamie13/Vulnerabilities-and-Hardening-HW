@@ -42,7 +42,7 @@ Login credentials:
 
 Select **Command Injection option** 
 
-[DVWA](https://drive.google.com/file/d/1_A-DWZc2FDJ2X4a0yzG1g_DupryCvRJo/view?usp=sharing)
+(https://drive.google.com/file/d/1_A-DWZc2FDJ2X4a0yzG1g_DupryCvRJo/view?usp=sharing)
 
 (Note if your DVWA does not open to the menu screen scroll to the bottom and click create a database and login again.)
 
