@@ -42,7 +42,7 @@ Login credentials:
 
 Select **Command Injection option** 
 
-![TODO: Update the path with the name of your diagram](https://drive.google.com/file/d/1_A-DWZc2FDJ2X4a0yzG1g_DupryCvRJo/view?usp=sharing)
+![TODO: Update the path with the name of your diagram](https://github.com/Tamie13/Vulnerabilities-and-Hardening-HW/blob/main/DVWA/command%20injection%20shot.png)
 
 (Note if your DVWA does not open to the menu screen scroll to the bottom and click create a database and login again.)
 
