@@ -65,6 +65,9 @@ and press submit to see the results display on the web application.
    
    
 **Command Two**
-Test Replicant webserver to see if it can be manipulated by inputing a different payload in the field by `Typing: 8.8.8.8 && pwd`
+Test Replicant webserver to see if it can be manipulated by inputing a different payload in the field by
+`Typing: 8.8.8.8 && pwd`
    
 ![TODO: Update the path with the name of your diagram](https://github.com/Tamie13/Vulnerabilities-and-Hardening-HW/blob/main/DVWA/PWD%20shot.png)
+   
+
