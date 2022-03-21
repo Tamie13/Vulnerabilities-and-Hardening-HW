@@ -48,13 +48,23 @@ option (See image below)
 ![TODO: Update the path with the name of your diagram](https://github.com/Tamie13/Vulnerabilities-and-Hardening-HW/blob/main/DVWA/command%20injection%20shot.png)
 
       This page is a new web application built by Replicants in order to enable their customers to ping an IP address. 
-      The web page will return the results of the ping command back to the user.  You will complete a series of steps 
+      The web page will return the results of the ping command back to the user.  You will run a series of commands 
       to walkthrough the intended purpose of the web application.
       
       
-**Step One**
-  - Test the webpage start by entering the IP address 8.8.8.8 and press submit to see the results display on the web application.
+**Command One**
+Test the webpage start by entering the IP address 
+`8.8.8.8`
+and press submit to see the results display on the web application.
 
 ![TODO: Update the path with the name of your diagram](https://github.com/Tamie13/Vulnerabilities-and-Hardening-HW/blob/main/DVWA/Ping%208.8.8.8.png)
 
 ![TODO: Update the path with the name of your diagram](https://github.com/Tamie13/Vulnerabilities-and-Hardening-HW/blob/main/DVWA/Results%20of%20Ping%20of%208.8.8.8.png)
+
+  - Behind the scenes, when you select Submit, the IP you type in the field is injected into a command that is run against the Replicants webserver. The specific command     that ran on the webserver is ping <IP> and 8.8.8.8 is the field value that is injected into that command.
+   
+   
+**Command Two**
+Test Replicant webserver to see if it can be manipulated by inputing a different payload in the field by `Typing: 8.8.8.8 && pwd`
+   
+![TODO: Update the path with the name of your diagram](https://github.com/Tamie13/Vulnerabilities-and-Hardening-HW/blob/main/DVWA/PWD%20shot.png)
