@@ -1,8 +1,8 @@
 # Vulnerabilities-and-Hardening-Cybersecurity Unit 15
 
-## Topics Covered in this repository:
 
-# Web application vulnerability assessments
+# Topics Covered in this repository:
+- Web application vulnerability assessments
 - Injection
 - Brute force attacks
 - Broken authentication
