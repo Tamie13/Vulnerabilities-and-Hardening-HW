@@ -98,7 +98,7 @@ Now that you have determined that Replicants new application is vulnerable to co
 -  Restrict privilege to only the minimum needed to accomplish task which can in turn restrict a threat actor if they do        manage to inject commands.
 -  Update and patch applications often.
 
-## Web Application Two: Brute Force:
+## Web Application Two: Brute Force
 
 Complete the following steps to set up the activity:
 
@@ -107,6 +107,7 @@ Complete the following steps to set up the activity:
 Navigate to http://192.168.13.25
 
 The page should look like the following:
+
 ![TODO: Update the path with name of your diagram](https://github.com/Tamie13/Vulnerabilities-and-Hardening-HW/blob/main/Images%20And%20Text%20Files/bWapp%20install.png)
 
 Click `"here"` to install bWapp 🐝 at the bottom of the page.
@@ -120,6 +121,7 @@ Once the installation is a success, use the following credentials to login:
     * Set the security level: low
 
 This will take you to the following page:
+
 ![TODO: Update the path with name of your diagram](https://github.com/Tamie13/Vulnerabilities-and-Hardening-HW/blob/main/Images%20And%20Text%20Files/bWapp%202nd%20page.png)
 
 ## Step Two
