@@ -107,7 +107,7 @@ Complete the following steps to set up the activity:
 Navigate to http://192.168.13.25
 
 The page should look like the following:
-![TODO: Update the path with name of your diagram]()
+![TODO: Update the path with name of your diagram](https://github.com/Tamie13/Vulnerabilities-and-Hardening-HW/blob/main/bWapp%20install.png)
 
 Click `"here"` to install bWapp 🐝 at the bottom of the page.
 
@@ -120,16 +120,27 @@ Once the installation is a success, use the following credentials to login:
     * Set the security level: low
 
 This will take you to the following page:
-![TODO: Update the path with name of your diagram]()
+![TODO: Update the path with name of your diagram](https://github.com/Tamie13/Vulnerabilities-and-Hardening-HW/blob/main/bWapp%202nd%20page.png)
+
+## Step Two
 
 To access the application where we will perform our activity, enter in the following URL: 
 
 http://192.168.13.35/ba_insecure_login_1.php
 
 This will take you to the following page:
-![TODO: Update the path with the name of your diagram]()
+![TODO: Update the path with the name of your diagram](https://github.com/Tamie13/Vulnerabilities-and-Hardening-HW/blob/main/bWapp%20broke%20auth.png)
 
-2. This page is an administrative web application that serves as a simple login page. An administrator enters their username    and password and selects Login.
+-  This page is an administrative web application that serves as a simple login page. An administrator enters their username    and password and selects Login.
 
     * If the user/password combination is correct, it will return a successful message.
     * If the user/password combination is incorrect, it will return the message, "Invalid credentials."
+
+We will use this page with another application called `Burp Suite` to complete this activity.
+-  If not already installed run `sudo burpsuite` in Vagrant command line. Then open Firefox where the add-on `FoxyProxy` was    installed prior to this activity.
+
+      * Use the web application tool Burp Suite, specifically the Burp Suite Intruder feature, to determine if any of the           administrator accounts are vulnerable to a brute force attack on this web application.
+
+      * You've been provided with a list of administrators and the breached passwords below:
+      * [List of Administrators](https://github.com/Tamie13/Vulnerabilities-and-Hardening-HW/blob/main/listofadmins.txt)
+      * [List of Breached Passwords](https://github.com/Tamie13/Vulnerabilities-and-Hardening-HW/blob/main/breached_passwords.txt)
