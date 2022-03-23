@@ -151,10 +151,12 @@ We will use this page with two other applications called `Burp Suite & FoxyProxy
 
 ### Results Of Utilizing Burp Suite with FoxyProxy Add-On
 
--  The login credentials below were used and the results can be seen in the images below:
+-  The login credentials below were used to test the use of Burp Suite & FoxyProxy
     * User Name: test-user
-    * Password: test-password
+    * Password: password
 
 ![TODO](https://github.com/Tamie13/Vulnerabilities-and-Hardening-HW/blob/main/Images%20And%20Text%20Files/test-user%20bWapp%20.png)
 
-![TODO](https://github.com/Tamie13/Vulnerabilities-and-Hardening-HW/blob/main/Images%20And%20Text%20Files/Burp%20Suite%20test-user.png)
+The following data was intercepted in Burp Suite after running user name and password above.
+
+![TODO](https://github.com/Tamie13/Vulnerabilities-and-Hardening-HW/blob/main/Images%20And%20Text%20Files/Burpsuite%20Intercept%20Data.png)
