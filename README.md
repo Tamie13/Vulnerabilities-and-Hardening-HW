@@ -31,7 +31,7 @@ Use the command line to run Vagrant with the following command:
 
 While the output might look like the task is still running, this script has launched several vulnerable web applications that we will use throughout this assignment.  Leave this page open and running then open a another terminal window to be used later.
 
-## Web Application One:
+## Web Application Vulnerability One: Command Injection:
 
 Open your browser and navigate to:
 
@@ -94,6 +94,42 @@ Now that you have determined that Replicants new application is vulnerable to co
 
 ### Recommended mitigation strategies:
 
--  Server-side validation that does not allow selection of unintended files.​
--  Segregation of confidential files from the web server and accessible directories.
--  Permissions to restrict web server account accessibility.
+-  Strong input validation ie. whitelist certain commands like pwd and ls to only allow these input strings.
+-  Restrict privilege to only the minimum needed to accomplish task which can in turn restrict a threat actor if they do        manage to inject commands.
+-  Update and patch applications often.
+
+## Web Application Two: Brute Force:
+
+Complete the following steps to set up the activity:
+
+### Step One:
+  
+Navigate to http://192.168.13.25
+
+The page should look like the following:
+![TODO: Update the path with name of your diagram]()
+
+Click `"here"` to install bWapp 🐝 at the bottom of the page.
+
+Once the installation is a success, use the following credentials to login:
+
+- Login credentials:
+
+    * User Name: bee
+    * Password:  bug
+    * Set the security level: low
+
+This will take you to the following page:
+![TODO: Update the path with name of your diagram]()
+
+To access the application where we will perform our activity, enter in the following URL: 
+
+http://192.168.13.35/ba_insecure_login_1.php
+
+This will take you to the following page:
+![TODO: Update the path with the name of your diagram]()
+
+2. This page is an administrative web application that serves as a simple login page. An administrator enters their username    and password and selects Login.
+
+    * If the user/password combination is correct, it will return a successful message.
+    * If the user/password combination is incorrect, it will return the message, "Invalid credentials."
