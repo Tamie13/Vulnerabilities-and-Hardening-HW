@@ -137,10 +137,11 @@ This will take you to the following page:
     * If the user/password combination is incorrect, it will return the message, "Invalid credentials."
 
 We will use this page with another application called `Burp Suite` to complete this activity.
--  If not already installed run `sudo burpsuite` in Vagrant command line. Then open Firefox where the add-on `FoxyProxy` was    installed prior to this activity.
+-  If not already installed run `sudo burpsuite` in Vagrant command line. Then open Firefox where the add-on `FoxyProxy` was installed prior to this activity.
 
-      * Use the web application tool Burp Suite, specifically the Burp Suite Intruder feature, to determine if any of the           administrator accounts are vulnerable to a brute force attack on this web application.
+      * Use the web application tool Burp Suite, specifically the Burp Suite Intruder feature, to determine if any of the           administrator accounts are vulnerable         to a brute force attack on this web application.
 
       * You've been provided with a list of administrators and the breached passwords below:
       * [List of Administrators](https://github.com/Tamie13/Vulnerabilities-and-Hardening-HW/blob/main/listofadmins.txt)
       * [List of Breached Passwords](https://github.com/Tamie13/Vulnerabilities-and-Hardening-HW/blob/main/breached_passwords.txt)
+
