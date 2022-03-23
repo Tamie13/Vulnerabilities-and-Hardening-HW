@@ -129,6 +129,7 @@ To access the application where we will perform our activity, enter in the follo
 http://192.168.13.35/ba_insecure_login_1.php
 
 This will take you to the following page:
+
 ![TODO: Update the path with the name of your diagram](https://github.com/Tamie13/Vulnerabilities-and-Hardening-HW/blob/main/bWapp%20broke%20auth.png)
 
 -  This page is an administrative web application that serves as a simple login page. An administrator enters their username    and password and selects Login.
@@ -137,7 +138,7 @@ This will take you to the following page:
     * If the user/password combination is incorrect, it will return the message, "Invalid credentials."
 
 We will use this page with two other applications called `Burp Suite & FoxyProxy` to complete this activity.
--  If you have not already installed `Burp Suite` or the `FoxyProxy Add-On` [Click Here](https://github.com/Tamie13/Vulnerabilities-and-Hardening-                HW/blob/main/Burp%20Suite%20Instructions.pdf) for setup instructions.
+-  If you have not already installed `Burp Suite` or the `FoxyProxy Add-On`[Click Here](https://github.com/Tamie13/Vulnerabilities-and-Hardening-HW/blob/main/Burp%20Suite%20Instructions.pdf) for setup instructions.
 
       * Use the web application tool Burp Suite, specifically the Burp Suite Intruder feature, to determine if any of the administrator accounts are vulnerable                   to a brute force attack on this web application.
 
