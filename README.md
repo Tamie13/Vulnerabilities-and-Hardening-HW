@@ -107,7 +107,7 @@ Complete the following steps to set up the activity:
 Navigate to http://192.168.13.25
 
 The page should look like the following:
-![TODO: Update the path with name of your diagram](https://github.com/Tamie13/Vulnerabilities-and-Hardening-HW/blob/main/bWapp%20install.png)
+![TODO: Update the path with name of your diagram](https://github.com/Tamie13/Vulnerabilities-and-Hardening-HW/blob/main/Images%20And%20Text%20Files/bWapp%20install.png)
 
 Click `"here"` to install bWapp 🐝 at the bottom of the page.
 
@@ -120,7 +120,7 @@ Once the installation is a success, use the following credentials to login:
     * Set the security level: low
 
 This will take you to the following page:
-![TODO: Update the path with name of your diagram](https://github.com/Tamie13/Vulnerabilities-and-Hardening-HW/blob/main/bWapp%202nd%20page.png)
+![TODO: Update the path with name of your diagram](https://github.com/Tamie13/Vulnerabilities-and-Hardening-HW/blob/main/Images%20And%20Text%20Files/bWapp%202nd%20page.png)
 
 ## Step Two
 
@@ -130,7 +130,7 @@ http://192.168.13.35/ba_insecure_login_1.php
 
 This will take you to the following page:
 
-![TODO: Update the path with the name of your diagram](https://github.com/Tamie13/Vulnerabilities-and-Hardening-HW/blob/main/bWapp%20broke%20auth.png)
+![TODO: Update the path with the name of your diagram](https://github.com/Tamie13/Vulnerabilities-and-Hardening-HW/blob/main/Images%20And%20Text%20Files/bWapp%20broke%20auth.png)
 
 -  This page is an administrative web application that serves as a simple login page. An administrator enters their username    and password and selects Login.
 
@@ -138,13 +138,13 @@ This will take you to the following page:
     * If the user/password combination is incorrect, it will return the message, "Invalid credentials."
 
 We will use this page with two other applications called `Burp Suite & FoxyProxy` to complete this activity.
--  If you have not already installed `Burp Suite` or the `FoxyProxy Add-On`[Click Here](https://github.com/Tamie13/Vulnerabilities-and-Hardening-HW/blob/main/Burp%20Suite%20Instructions.pdf) for setup instructions.
+-  If you have not already installed `Burp Suite` or the `FoxyProxy Add-On`[Click Here](https://github.com/Tamie13/Vulnerabilities-and-Hardening-HW/blob/main/Images%20And%20Text%20Files/Burp%20Suite%20Instructions.pdf) for setup instructions.
 
       * Use the web application tool Burp Suite, specifically the Burp Suite Intruder feature, to determine if any of the administrator accounts are vulnerable                   to a brute force attack on this web application.
 
       * You've been provided with a list of administrators and the breached passwords below to run using Burp Suite & FoxyProxy:
-      * [List of Administrators](https://github.com/Tamie13/Vulnerabilities-and-Hardening-HW/blob/main/listofadmins.txt)
-      * [List of Breached Passwords](https://github.com/Tamie13/Vulnerabilities-and-Hardening-HW/blob/main/breached_passwords.txt)
+      * [List of Administrators](https://github.com/Tamie13/Vulnerabilities-and-Hardening-HW/blob/main/Images%20And%20Text%20Files/listofadmins.txt)
+      * [List of Breached Passwords](https://github.com/Tamie13/Vulnerabilities-and-Hardening-HW/blob/main/Images%20And%20Text%20Files/breached_passwords.txt)
 
 
 ### Results Of Utilizing Burp Suite with FoxyProxy Add-On
@@ -153,6 +153,6 @@ We will use this page with two other applications called `Burp Suite & FoxyProxy
     * User Name: test-user
     * Password: test-password
 
-![TODO](https://github.com/Tamie13/Vulnerabilities-and-Hardening-HW/blob/main/test-user%20bWapp.png)
+![TODO](https://github.com/Tamie13/Vulnerabilities-and-Hardening-HW/blob/main/Images%20And%20Text%20Files/test-user%20bWapp%20.png)
 
-![TODO](
+![TODO](https://github.com/Tamie13/Vulnerabilities-and-Hardening-HW/blob/main/Images%20And%20Text%20Files/Burp%20Suite%20test-user.png)
