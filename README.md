@@ -161,7 +161,7 @@ The following data was intercepted in Burp Suite after running user-name and pas
 
 ![TODO](https://github.com/Tamie13/Vulnerabilities-and-Hardening-HW/blob/main/Images%20And%20Text%20Files/Burpsuite%20Intercept%20Data.png)
 
--  Next we used right-click to access the menu to send the results to **`Intruder`
+-  Next we used right-click to access the menu to send the results to **`Intruder`**
 
 -   Then we setup **`Positions`** and selected the attack type **`Cluster bomb`**
 
