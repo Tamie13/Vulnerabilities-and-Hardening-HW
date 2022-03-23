@@ -142,7 +142,17 @@ We will use this page with two other applications called `Burp Suite & FoxyProxy
 
       * Use the web application tool Burp Suite, specifically the Burp Suite Intruder feature, to determine if any of the administrator accounts are vulnerable                   to a brute force attack on this web application.
 
-      * You've been provided with a list of administrators and the breached passwords below:
+      * You've been provided with a list of administrators and the breached passwords below to run using Burp Suite & FoxyProxy:
       * [List of Administrators](https://github.com/Tamie13/Vulnerabilities-and-Hardening-HW/blob/main/listofadmins.txt)
       * [List of Breached Passwords](https://github.com/Tamie13/Vulnerabilities-and-Hardening-HW/blob/main/breached_passwords.txt)
 
+
+### Results Of Utilizing Burp Suite with FoxyProxy Add-On
+
+-  The login credentials below were used and the results can be seen in the images below:
+    * User Name: test-user
+    * Password: test-password
+
+![TODO](https://github.com/Tamie13/Vulnerabilities-and-Hardening-HW/blob/main/test-user%20bWapp.png)
+
+![TODO](
