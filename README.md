@@ -157,14 +157,6 @@ We will use this page with two other applications called `Burp Suite & FoxyProxy
 
 ![TODO](https://github.com/Tamie13/Vulnerabilities-and-Hardening-HW/blob/main/Images%20And%20Text%20Files/test-user%20bWapp%20.png)
 
-The following data was intercepted in Burp Suite after running user-name and password above.
-
-![TODO](https://github.com/Tamie13/Vulnerabilities-and-Hardening-HW/blob/main/Images%20And%20Text%20Files/Burpsuite%20Intercept%20Data.png)
-
--  Next we used right-click to access the menu to send the results to **`Intruder`**
-
--   Then we setup **`Positions`** and selected the attack type **`Cluster bomb`**
-
--   To configure and add `login` and `password` as positions we selected `Clear` on the right side of the menu and then `Add` and added them as positions.
+The image below shows data intercepted after we ran the user-name and password above.  It also shows that we sent the data to Intruder where we set our attack type as **`Cluster Bomb`** as well as cleared and set new positions for **`user-name and password`**
 
 ![TODO](https://github.com/Tamie13/Vulnerabilities-and-Hardening-HW/blob/main/Images%20And%20Text%20Files/Login%20and%20Password%20Position.png)
