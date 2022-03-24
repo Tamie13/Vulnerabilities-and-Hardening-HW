@@ -157,6 +157,23 @@ We will use this page with two other applications called `Burp Suite & FoxyProxy
 
 ![TODO](https://github.com/Tamie13/Vulnerabilities-and-Hardening-HW/blob/main/Images%20And%20Text%20Files/test-user%20bWapp%20.png)
 
-The image below shows data intercepted after we ran the user-name and password above.  It also shows that we sent the data to Intruder where we set our attack type as **`Cluster Bomb`** as well as cleared and set new positions for **`user-name and password`**
+The image below shows data intercepted after running the user-name and password above.  It also depicts the data being sent to Intruder and the attack type as the **`Cluster Bomb.`** By using the menu on the right side of the image the positions were cleared and new positions set for **`user-name and password`** before setting the payloads which is the next step before running the attack.
 
 ![TODO](https://github.com/Tamie13/Vulnerabilities-and-Hardening-HW/blob/main/Images%20And%20Text%20Files/Login%20and%20Password%20Position.png)
+
+### Setting Payloads
+
+-  Now that the target has been identified and the positions set above the payloads need to be defined.
+    - Click Payloads tab, choose Payload type as Simple list
+    - Add login user ID from List of Administrators file into Payload set 1
+    - Add password from Breached list of Passwords file into Payload set 2
+
+Click **`Start Attack`**
+
+After running the attack results show one `User-Name & Password` at a varying length from the others **`tonystark`** and **`I am Iron Man`**
+
+![TODO](https://github.com/Tamie13/Vulnerabilities-and-Hardening-HW/blob/main/Images%20And%20Text%20Files/tony%20stark%20highlight%20shot.png)
+
+By turning off intercept and FoxyProxy image below shows that the combination of **`tonystark`** and **`I am Iron Man`** did result in a successful login.
+
+![TODO](https://github.com/Tamie13/Vulnerabilities-and-Hardening-HW/blob/main/Images%20And%20Text%20Files/tony%20login%20shot.png)
