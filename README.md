@@ -92,7 +92,7 @@ Now that you have determined that Replicants new application is vulnerable to co
    - `Dot-Dot-Slash Payload Two: 8.8.8.8 && cat ../../../../../etc/hosts`
 ![TODO: Update the path with name of your diagram](https://github.com/Tamie13/Vulnerabilities-and-Hardening-HW/blob/main/DVWA/Results%20for%20etc:hosts.png)
 
-### Recommended mitigation strategies:
+## Recommended mitigation strategies:
 
 -  Strong input validation ie. whitelist certain commands like pwd and ls to only allow these input strings.
 -  Restrict privilege to only the minimum needed to accomplish task which can in turn restrict a threat actor if they do        manage to inject commands.
@@ -177,3 +177,13 @@ After running the attack results show one `User-Name & Password` at a varying le
 By turning off intercept and FoxyProxy image below shows that the combination of **`tonystark`** and **`I am Iron Man`** did result in a successful login.
 
 ![TODO](https://github.com/Tamie13/Vulnerabilities-and-Hardening-HW/blob/main/Images%20And%20Text%20Files/tony%20login%20shot.png)
+
+## Recommended Mitgation Strategies:
+
+-  Longer more complex password requirements
+-  Requiring passwords be changed after a specified period of time (ie. 90 days)
+-  Multi-factor authentication
+-  Lock-out after specified number of failed login attempts
+
+## Web Application Three: Where's the BeEF?
+
