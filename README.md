@@ -73,7 +73,7 @@ Test Replicant webserver to see if it can be manipulated by inputing a different
    
 ![TODO: Update the path with the name of your diagram](https://github.com/Tamie13/Vulnerabilities-and-Hardening-HW/blob/main/DVWA/PWD%20Results.png) 
    
-- The ping results above are the result of the second command used `pwd`.  The `injection` of `pwd` into the command line above is how you implement a:
+- The ping results above are the result of the second command used `pwd`.  The `injection` of `pwd` into the command line above is an example of how   you implement a:
   - Command Injection Attack
 
 It should be noted that a Command Injection Attack is dependent on the web application taking user input to run a command against an operating system.
@@ -216,13 +216,36 @@ To access this simulated infected website, locate the following sentence on the 
 
 Click the second **`"here"`** for the advanced version.  This will open the following website that has been infected with a BeEF hook.
 
-![TODO]()
+![TODO](https://github.com/Tamie13/Vulnerabilities-and-Hardening-HW/blob/main/Images%20And%20Text%20Files/BeEF%20Second%20Here.png)
 
+This opens the page seen below which has been infected with a BeEF hook.
+![TODO](https://github.com/Tamie13/Vulnerabilities-and-Hardening-HW/blob/main/Images%20And%20Text%20Files/BeEF%20Hook.png)
 
+**Once you have pulled up the infected webpage above your browser has not been `HOOKED!`
 
+Return to your control panel and on the left side you will notice your browser is infected and shows under `"Hooked Browsers"`
+![TODO](https://github.com/Tamie13/Vulnerabilities-and-Hardening-HW/blob/main/Images%20And%20Text%20Files/Hooked%20Browser%20Command%20Tab.png)
 
+Click on the hooked browser **127.0.0.2** and then the **Commands** tab where you will see a list of hundreds of exploits that can be ran agaisnt the hooked browser. Note every exploit will work but many will!
 
+**First Exploit: Social Engineering**
 
+-  To access this exploit select the Google Phising under Social Engineering (see below).
+![TODO](https://github.com/Tamie13/Vulnerabilities-and-Hardening-HW/blob/main/Images%20And%20Text%20Files/google%20phishing.png)
 
+The results are displayed on the right side of the page under `"Google Phising"` (see above).
 
+Click **`Execute`** on the bottom right of the screen to launch the exploit.
+
+-  After selecting Execute, return back to your browser that was displaying the Butcher Shop website. Note that it has been changed to a Google        login page.  A victim could easily mistake this for a real login prompt. (see below)
+
+![TODO](https://github.com/Tamie13/Vulnerabilities-and-Hardening-HW/blob/main/Images%20And%20Text%20Files/Google%20Login%20Page.png)
+
+-  Use the credentials below to login into the fake Google page.
+      - Username: hackeruser
+      - Password: hackerpass
+
+Return to the BeEF contrl panel and in the center panel select the first option labeled **`command 1`** and you will be able to the user name and password have been captured on the right side of the screen under command results (see below).
+
+![TODO](https://github.com/Tamie13/Vulnerabilities-and-Hardening-HW/blob/main/Images%20And%20Text%20Files/Command%20One%20Results.png)
 
