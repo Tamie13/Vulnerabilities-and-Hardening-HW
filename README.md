@@ -193,4 +193,36 @@ By turning off intercept and FoxyProxy the user-name and password were ran in th
 
 # Web Application Vulnerability Three: Where's the BeEF?
 
-[Click Here To Setup This Activity](https://github.com/Tamie13/Vulnerabilities-and-Hardening-HW/blob/main/Images%20And%20Text%20Files/BeEF%20setup.pdf)
+[Click Here For Setup Instructions](https://github.com/Tamie13/Vulnerabilities-and-Hardening-HW/blob/main/Images%20And%20Text%20Files/BeEF%20setup.pdf)
+
+**The Browser Exploitation Framework (BeEF) is a practical client-side attack tool that exploits vulnerabilities of web browsers to assess the security posture of a target.**
+
+While BeEF was developed for lawful research and penetration testing, criminal hackers leverage it as an attack tool.
+
+An attacker takes a small snippet of code, called a **`BeEF Hook`**, and determines a way to add this code into a target website. This is commonly done by **`cross-site scripting.`**
+
+When subsequent users access the infected website, the users' browsers become hooked.
+
+Once a browser is hooked, it is referred to as a **`zombie.`** A zombie is an infected browser that awaits instructions from the BeEF control panel.
+
+-  The BeEF control panel has hundreds of exploits that can be launch against the hooked victims, including:
+    -  Social engineering attacks
+    -  Stealing confidential data from the victim's machine
+    -  Accessing system and network information from the victim's machine
+
+**BeEF includes a feature to test out a simulation of an infected website.**
+
+To access this simulated infected website, locate the following sentence on the BeEF control panel: To begin with, you can point a browser towards the basic demo page here, or the **`advanced version here.`**
+
+Click the second **`"here"`** for the advanced version.  This will open the following website that has been infected with a BeEF hook.
+
+![TODO]()
+
+
+
+
+
+
+
+
+
