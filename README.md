@@ -31,7 +31,8 @@ Use the command line to run Vagrant with the following command:
 
 While the output might look like the task is still running, this script has launched several vulnerable web applications that we will use throughout this assignment.  Leave this page open and running then open a another terminal window to be used later.
 
-## Web Application Vulnerability One: Command Injection:
+
+# Web Application Vulnerability One: Command Injection:
 
 Open your browser and navigate to:
 
@@ -98,7 +99,8 @@ Now that you have determined that Replicants new application is vulnerable to co
 -  Restrict privilege to only the minimum needed to accomplish task which can in turn restrict a threat actor if they do        manage to inject commands.
 -  Update and patch applications often.
 
-## Web Application Two: Brute Force
+
+# Web Application Vulnerability Two: Brute Force
 
 Complete the following steps to set up the activity:
 
@@ -164,9 +166,12 @@ The image below shows data intercepted after running the user-name and password 
 ### Setting Payloads
 
 -  Now that the target has been identified and the positions set above the payloads need to be defined.
+    
     - Click Payloads tab, choose Payload type as Simple list
-    - Add login user ID from List of Administrators file into Payload set 1
-    - Add password from Breached list of Passwords file into Payload set 2
+    
+      - **Payload One** Add login user ID from List of Administrators file into payload set 1
+    
+      - **Payload Two** Add password from Breached list of Passwords file into payload set 2
 
 Click **`Start Attack`**
 
@@ -174,7 +179,7 @@ After running the attack results show one `User-Name & Password` at a varying le
 
 ![TODO](https://github.com/Tamie13/Vulnerabilities-and-Hardening-HW/blob/main/Images%20And%20Text%20Files/tony%20stark%20highlight%20shot.png)
 
-By turning off intercept and FoxyProxy image below shows that the combination of **`tonystark`** and **`I am Iron Man`** did result in a successful login.
+By turning off intercept and FoxyProxy the user-name and password were ran in the bWapp portal and the combination of **`tonystark`** and **`I am Iron Man`** did result in a successful login.
 
 ![TODO](https://github.com/Tamie13/Vulnerabilities-and-Hardening-HW/blob/main/Images%20And%20Text%20Files/tony%20login%20shot.png)
 
@@ -185,5 +190,7 @@ By turning off intercept and FoxyProxy image below shows that the combination of
 -  Multi-factor authentication
 -  Lock-out after specified number of failed login attempts
 
-## Web Application Three: Where's the BeEF?
 
+# Web Application Vulnerability Three: Where's the BeEF?
+
+[Click Here To Setup This Activity](https://github.com/Tamie13/Vulnerabilities-and-Hardening-HW/blob/main/Images%20And%20Text%20Files/BeEF%20setup.pdf)
