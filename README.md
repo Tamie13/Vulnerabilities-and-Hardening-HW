@@ -299,10 +299,16 @@ Image below shows that the code was changed and the full script is now able to f
     - Social Engineering
       - Fake Notification Bar
       
- ![TODO](
+
+![TODO](https://github.com/Tamie13/Vulnerabilities-and-Hardening-HW/blob/main/Images%20And%20Text%20Files/Fake%20Notification.png)
 
 
     - Host
       -  Get Geolocation (Third Party)
 
 ![TODO](https://github.com/Tamie13/Vulnerabilities-and-Hardening-HW/blob/main/Images%20And%20Text%20Files/geolocation%203rd%20party%20shot.png)
+
+## Recommendations For Mitigation
+
+-  Sanitize your data by examining and removing unwanted data such as HTML tags that can be unsafe.
+-  Validate user input by treating anthing that originates from outside the system as untrusted.
