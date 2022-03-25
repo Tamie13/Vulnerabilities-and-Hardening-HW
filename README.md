@@ -49,9 +49,9 @@ option from the menu on the left. (See image below)
 
 ![TODO: Update the path with the name of your diagram](https://github.com/Tamie13/Vulnerabilities-and-Hardening-HW/blob/main/DVWA/command%20injection%20shot.png)
 
-      This page is a new web application built by Replicants in order to enable their customers to ping an IP address. 
-      The web page will return the results of the ping command back to the user.  You will run a series of commands 
-      to walkthrough the intended purpose of the web application.
+This page is a new web application built by Replicants in order to enable their customers to ping an IP address. 
+The web page will return the results of the ping command back to the user.  You will run a series of commands 
+to walkthrough the intended purpose of the web application.
       
       
 **Payload One**
